@@ -34,10 +34,16 @@ h1{
     height: 100px;
     width: 100px;
     margin: 5px;
+    font-family: 'Fredoka One', sans-serif;
     background-color: white;
     border-radius: 10px;
     box-shadow : 2px 2px Silver ;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 p{
     text-align: center;
@@ -59,7 +65,7 @@ h3{
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgba(178, 172, 172, 0.53);
     visibility: hidden;
     opacity: 0.9;
 }
@@ -76,8 +82,8 @@ h3{
     color: white;
     cursor: pointer;
     text-align: center;
-    line-height: 40px;
-    font-size: 30px;
+    line-height: 100px;
+    font-size: 60px;
     opacity: 1;
     border-radius: 5px;
 }
@@ -93,6 +99,9 @@ a{
     }
     h3{
         font-size: 25px;
+    }
+    .box{
+        font-size: 2em;
     }
     #message{
         font-size: 35px;
